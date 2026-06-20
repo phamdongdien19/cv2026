@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Phạm Đông Điền - Mẫu v2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Inter:wght@300;400;600&display=swap"
         rel="stylesheet">
@@ -52,12 +53,25 @@
         }
 
         .contact-info {
-            font-size: 13px;
-            color: var(--text-light);
+            font-size: 12.5px;
+            color: var(--text-main);
             display: flex;
             justify-content: center;
             gap: 15px;
             flex-wrap: wrap;
+            margin-top: 5px;
+        }
+
+        .contact-info a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px solid var(--text-main);
+        }
+
+        .contact-info i {
+            margin-right: 4px;
+            font-size: 1.1em;
+            vertical-align: middle;
         }
 
         section {
@@ -165,9 +179,11 @@
         <header>
             <h1 class="name">PHẠM ĐÔNG ĐIỀN</h1>
             <div class="contact-info">
-                <span>📞 0942637519</span>
-                <span>📧 phamdongdien19@gmail.com</span>
-                <span>📍 TP. Hồ Chí Minh</span>
+                <span><i class="fa-solid fa-phone"></i> 0942637519</span>
+                <span><i class="fa-solid fa-envelope"></i> phamdongdien19@gmail.com</span>
+                <span><i class="fa-solid fa-globe"></i> <a href="https://phamdongdien19.github.io/portfolio-v1/">My Portfolio</a></span>
+                <span><i class="fa-brands fa-github"></i> <a href="https://github.com/phamdongdien19">phamdongdien19</a></span>
+                <span><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/dien-pham-422466165/">linkedin.com/in/dien-pham-422466165/</a></span>
             </div>
         </header>
 
@@ -285,24 +301,20 @@
             <h2 class="section-title">Khách hàng tiêu biểu</h2>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 13px;">
                 <div><b>Global FMCG:</b> Nestlé, PepsiCo, P&G</div>
-                <div><b>Finance:</b> Dragon Capital, Sun Life</div>
-                <div><b>Consulting:</b> McKinsey & Company</div>
-                <div><b>Platform:</b> Shopee, CGV Cinemas</div>
-                <div style="grid-column: span 2;"><b>Local:</b> Masan Group, Thiên Long, Siêu Việt Group</div>
+                <div><b>Tài chính/Bảo hiểm:</b> Dragon Capital, Sun Life</div>
+                <div><b>Tư vấn:</b> McKinsey & Company</div>
+                <div><b>Nền tảng/Bán lẻ:</b> Shopee</div>
+                <div style="grid-column: span 2;"><b>Nhà sản xuất nội địa:</b> Masan, Thiên Long, Siêu Việt Group</div>
             </div>
         </section>
 
         <section>
-            <h2 class="section-title">Dự án công ty & Ngành hàng</h2>
-            <p style="font-size: 13.5px; margin-bottom: 10px;">Vận hành thành công <span class="strong">hơn 400 dự
-                    án</span> với tỉ lệ đạt chuẩn 100% (không có dự án thất bại).</p>
+            <h2 class="section-title">Lĩnh vực hoạt động</h2>
+            <p style="font-size: 13.5px; margin-bottom: 5px;">Kinh nghiệm sâu rộng trong vận hành thu thập dữ liệu định lượng quy mô lớn trên các lĩnh vực:</p>
             <div class="skills-container">
-                <div class="skill-item"><b>Loại hình nghiên cứu:</b> Thấu hiểu hành vi (U&A), Thử nghiệm sản phẩm
-                    (Concept/Product Test), Theo dõi thương hiệu (Brand Tracking), Hài lòng khách hàng (CSAT/NPS), Phân
-                    khúc thị trường.</div>
-                <div class="skill-item"><b>Ngành hàng phụ trách:</b> FMCG (Thực phẩm, Sữa, Đồ uống, Home Care), Dịch vụ
-                    Tài chính, Công nghệ & Fintech, Bán lẻ & TMĐT, Xây dựng & BĐS, Y tế, Giáo dục, Du lịch, Logistics.
-                </div>
+                <div class="skill-item"><b>FMCG:</b> Thực phẩm, Sữa, Đồ uống, Home Care</div>
+                <div class="skill-item"><b>Dịch vụ & Công nghệ:</b> Dịch vụ tài chính, Công nghệ & Fintech, Bán lẻ & Thương mại điện tử, Logistics & Giao nhận.</div>
+                <div class="skill-item"><b>Các ngành khác:</b> Xây dựng & Bất động sản, Y tế, Giáo dục, Nhà hàng - Khách sạn & Du lịch.</div>
             </div>
         </section>
 
